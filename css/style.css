@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+/* Стили для вкладок */
+.tabcontent {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    display: none;
+}
+
+.tabcontent.active {
+    display: block;
+}
+
+#Moscow {
+    background-color: red;
+}
+
+#Paris {
+    background-color: green;
+}
+
+#Tokyo {
+    background-color: blue;
+}
+
+#Oslo {
+    background-color: orange;
+}
+
+#tabList {
+    display: flex;
+}
+
+/* стили кнопок */
+.tablink {
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 16px 18px;
+    width: 25%;
+
+}
+
+.tablink:hover {
+    background-color: rgb(49, 38, 38);
+}
